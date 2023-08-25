@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LinkList",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CNode-Debug-8570bf8fa80a20fbfef9.json",
+					"name" : "CNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DNode-Debug-a0620883136e3ff0ad77.json",
+					"name" : "DNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LNode-Debug-5c5c3b209e7876049914.json",
+					"name" : "LNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SNode-Debug-0449f27f20bfedb828f6.json",
+					"name" : "SNode",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/william/Desktop/DataStructure/LinkList/cmake-build-debug",
+		"source" : "/Users/william/Desktop/DataStructure/LinkList"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

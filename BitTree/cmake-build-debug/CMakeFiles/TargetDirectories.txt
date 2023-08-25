@@ -1,0 +1,6 @@
+/Users/william/Desktop/408/DataStructure/BitTree/cmake-build-debug/CMakeFiles/BitTree.dir
+/Users/william/Desktop/408/DataStructure/BitTree/cmake-build-debug/CMakeFiles/bit.dir
+/Users/william/Desktop/408/DataStructure/BitTree/cmake-build-debug/CMakeFiles/bit2.dir
+/Users/william/Desktop/408/DataStructure/BitTree/cmake-build-debug/CMakeFiles/test1.dir
+/Users/william/Desktop/408/DataStructure/BitTree/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/william/Desktop/408/DataStructure/BitTree/cmake-build-debug/CMakeFiles/rebuild_cache.dir

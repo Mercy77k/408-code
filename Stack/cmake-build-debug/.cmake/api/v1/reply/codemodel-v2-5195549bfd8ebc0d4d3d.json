@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Stack",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AD-Debug-4743e2f46b52ca00bd07.json",
+					"name" : "AD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LinkStack_nohead::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinkStack_nohead-Debug-383b9ff33e507d4941a6.json",
+					"name" : "LinkStack_nohead",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LinkStack_nohead_GPT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinkStack_nohead_GPT-Debug-07f8f46cd8dd1daaf76d.json",
+					"name" : "LinkStack_nohead_GPT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LinkStack_withead::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinkStack_withead-Debug-e2cb6318cfa67e47857a.json",
+					"name" : "LinkStack_withead",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ShareStack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ShareStack-Debug-ce1f07c3b46b9675e90f.json",
+					"name" : "ShareStack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SqStack-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SqStack-1-Debug-6e9f0733dfa909e29605.json",
+					"name" : "SqStack-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SqStack0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SqStack0-Debug-78771b19f3a7b8ccec59.json",
+					"name" : "SqStack0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stack-Debug-3c6cb04d9d33596b1c78.json",
+					"name" : "Stack",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/william/Desktop/DataStructure/Stack/cmake-build-debug",
+		"source" : "/Users/william/Desktop/DataStructure/Stack"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

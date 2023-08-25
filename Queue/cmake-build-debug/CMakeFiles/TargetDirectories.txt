@@ -1,0 +1,9 @@
+/Users/william/Desktop/DataStructure/Queue/cmake-build-debug/CMakeFiles/Queue1.dir
+/Users/william/Desktop/DataStructure/Queue/cmake-build-debug/CMakeFiles/Queue2.dir
+/Users/william/Desktop/DataStructure/Queue/cmake-build-debug/CMakeFiles/Queue3.dir
+/Users/william/Desktop/DataStructure/Queue/cmake-build-debug/CMakeFiles/Queue4.dir
+/Users/william/Desktop/DataStructure/Queue/cmake-build-debug/CMakeFiles/Queue5.dir
+/Users/william/Desktop/DataStructure/Queue/cmake-build-debug/CMakeFiles/Queue6.dir
+/Users/william/Desktop/DataStructure/Queue/cmake-build-debug/CMakeFiles/Queue8.dir
+/Users/william/Desktop/DataStructure/Queue/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/william/Desktop/DataStructure/Queue/cmake-build-debug/CMakeFiles/rebuild_cache.dir

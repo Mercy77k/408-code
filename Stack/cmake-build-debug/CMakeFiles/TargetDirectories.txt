@@ -1,0 +1,10 @@
+/Users/william/Desktop/DataStructure/Stack/cmake-build-debug/CMakeFiles/Stack.dir
+/Users/william/Desktop/DataStructure/Stack/cmake-build-debug/CMakeFiles/SqStack-1.dir
+/Users/william/Desktop/DataStructure/Stack/cmake-build-debug/CMakeFiles/SqStack0.dir
+/Users/william/Desktop/DataStructure/Stack/cmake-build-debug/CMakeFiles/ShareStack.dir
+/Users/william/Desktop/DataStructure/Stack/cmake-build-debug/CMakeFiles/LinkStack_withead.dir
+/Users/william/Desktop/DataStructure/Stack/cmake-build-debug/CMakeFiles/LinkStack_nohead.dir
+/Users/william/Desktop/DataStructure/Stack/cmake-build-debug/CMakeFiles/AD.dir
+/Users/william/Desktop/DataStructure/Stack/cmake-build-debug/CMakeFiles/LinkStack_nohead_GPT.dir
+/Users/william/Desktop/DataStructure/Stack/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/william/Desktop/DataStructure/Stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir

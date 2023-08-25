@@ -1,0 +1,232 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: LinkList
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/william/Desktop/DataStructure/LinkList/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target LNode
+
+
+#############################################
+# Order-only phony target for LNode
+
+build cmake_object_order_depends_target_LNode: phony || CMakeFiles/LNode.dir
+
+build CMakeFiles/LNode.dir/LNode(单链表).c.o: C_COMPILER__LNode_Debug /Users/william/Desktop/DataStructure/LinkList/LNode(单链表).c || cmake_object_order_depends_target_LNode
+  DEP_FILE = "CMakeFiles/LNode.dir/LNode(单链表).c.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/LNode.dir
+  OBJECT_FILE_DIR = CMakeFiles/LNode.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LNode
+
+
+#############################################
+# Link the executable LNode
+
+build LNode: C_EXECUTABLE_LINKER__LNode_Debug CMakeFiles/LNode.dir/LNode(单链表).c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/LNode.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = LNode
+  TARGET_PDB = LNode.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DNode
+
+
+#############################################
+# Order-only phony target for DNode
+
+build cmake_object_order_depends_target_DNode: phony || CMakeFiles/DNode.dir
+
+build CMakeFiles/DNode.dir/DNode(双链表).c.o: C_COMPILER__DNode_Debug /Users/william/Desktop/DataStructure/LinkList/DNode(双链表).c || cmake_object_order_depends_target_DNode
+  DEP_FILE = "CMakeFiles/DNode.dir/DNode(双链表).c.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/DNode.dir
+  OBJECT_FILE_DIR = CMakeFiles/DNode.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DNode
+
+
+#############################################
+# Link the executable DNode
+
+build DNode: C_EXECUTABLE_LINKER__DNode_Debug CMakeFiles/DNode.dir/DNode(双链表).c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/DNode.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = DNode
+  TARGET_PDB = DNode.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CNode
+
+
+#############################################
+# Order-only phony target for CNode
+
+build cmake_object_order_depends_target_CNode: phony || CMakeFiles/CNode.dir
+
+build CMakeFiles/CNode.dir/CycleList(循环链表).c.o: C_COMPILER__CNode_Debug /Users/william/Desktop/DataStructure/LinkList/CycleList(循环链表).c || cmake_object_order_depends_target_CNode
+  DEP_FILE = "CMakeFiles/CNode.dir/CycleList(循环链表).c.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/CNode.dir
+  OBJECT_FILE_DIR = CMakeFiles/CNode.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CNode
+
+
+#############################################
+# Link the executable CNode
+
+build CNode: C_EXECUTABLE_LINKER__CNode_Debug CMakeFiles/CNode.dir/CycleList(循环链表).c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/CNode.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CNode
+  TARGET_PDB = CNode.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SNode
+
+
+#############################################
+# Order-only phony target for SNode
+
+build cmake_object_order_depends_target_SNode: phony || CMakeFiles/SNode.dir
+
+build CMakeFiles/SNode.dir/SLinkList(静态链表).c.o: C_COMPILER__SNode_Debug /Users/william/Desktop/DataStructure/LinkList/SLinkList(静态链表).c || cmake_object_order_depends_target_SNode
+  DEP_FILE = "CMakeFiles/SNode.dir/SLinkList(静态链表).c.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/SNode.dir
+  OBJECT_FILE_DIR = CMakeFiles/SNode.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SNode
+
+
+#############################################
+# Link the executable SNode
+
+build SNode: C_EXECUTABLE_LINKER__SNode_Debug CMakeFiles/SNode.dir/SLinkList(静态链表).c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/SNode.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SNode
+  TARGET_PDB = SNode.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/william/Desktop/DataStructure/LinkList/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/william/Desktop/DataStructure/LinkList/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/william/Desktop/DataStructure/LinkList -B/Users/william/Desktop/DataStructure/LinkList/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/william/Desktop/DataStructure/LinkList/cmake-build-debug
+
+build all: phony LNode DNode CNode SNode
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/william/Desktop/DataStructure/LinkList/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/william/Desktop/DataStructure/LinkList/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

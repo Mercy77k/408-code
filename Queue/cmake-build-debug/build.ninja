@@ -1,0 +1,325 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: Queue
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/william/Desktop/DataStructure/Queue/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target Queue1
+
+
+#############################################
+# Order-only phony target for Queue1
+
+build cmake_object_order_depends_target_Queue1: phony || CMakeFiles/Queue1.dir
+
+build CMakeFiles/Queue1.dir/SqQueue_rear0.c.o: C_COMPILER__Queue1_Debug /Users/william/Desktop/DataStructure/Queue/SqQueue_rear0.c || cmake_object_order_depends_target_Queue1
+  DEP_FILE = CMakeFiles/Queue1.dir/SqQueue_rear0.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/Queue1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Queue1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Queue1
+
+
+#############################################
+# Link the executable Queue1
+
+build Queue1: C_EXECUTABLE_LINKER__Queue1_Debug CMakeFiles/Queue1.dir/SqQueue_rear0.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/Queue1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Queue1
+  TARGET_PDB = Queue1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Queue2
+
+
+#############################################
+# Order-only phony target for Queue2
+
+build cmake_object_order_depends_target_Queue2: phony || CMakeFiles/Queue2.dir
+
+build CMakeFiles/Queue2.dir/SqQueue_rear-1.c.o: C_COMPILER__Queue2_Debug /Users/william/Desktop/DataStructure/Queue/SqQueue_rear-1.c || cmake_object_order_depends_target_Queue2
+  DEP_FILE = CMakeFiles/Queue2.dir/SqQueue_rear-1.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/Queue2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Queue2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Queue2
+
+
+#############################################
+# Link the executable Queue2
+
+build Queue2: C_EXECUTABLE_LINKER__Queue2_Debug CMakeFiles/Queue2.dir/SqQueue_rear-1.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/Queue2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Queue2
+  TARGET_PDB = Queue2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Queue3
+
+
+#############################################
+# Order-only phony target for Queue3
+
+build cmake_object_order_depends_target_Queue3: phony || CMakeFiles/Queue3.dir
+
+build CMakeFiles/Queue3.dir/SqQueue_withTag.c.o: C_COMPILER__Queue3_Debug /Users/william/Desktop/DataStructure/Queue/SqQueue_withTag.c || cmake_object_order_depends_target_Queue3
+  DEP_FILE = CMakeFiles/Queue3.dir/SqQueue_withTag.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/Queue3.dir
+  OBJECT_FILE_DIR = CMakeFiles/Queue3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Queue3
+
+
+#############################################
+# Link the executable Queue3
+
+build Queue3: C_EXECUTABLE_LINKER__Queue3_Debug CMakeFiles/Queue3.dir/SqQueue_withTag.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/Queue3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Queue3
+  TARGET_PDB = Queue3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Queue4
+
+
+#############################################
+# Order-only phony target for Queue4
+
+build cmake_object_order_depends_target_Queue4: phony || CMakeFiles/Queue4.dir
+
+build CMakeFiles/Queue4.dir/SqQueue_withNum.c.o: C_COMPILER__Queue4_Debug /Users/william/Desktop/DataStructure/Queue/SqQueue_withNum.c || cmake_object_order_depends_target_Queue4
+  DEP_FILE = CMakeFiles/Queue4.dir/SqQueue_withNum.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/Queue4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Queue4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Queue4
+
+
+#############################################
+# Link the executable Queue4
+
+build Queue4: C_EXECUTABLE_LINKER__Queue4_Debug CMakeFiles/Queue4.dir/SqQueue_withNum.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/Queue4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Queue4
+  TARGET_PDB = Queue4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Queue5
+
+
+#############################################
+# Order-only phony target for Queue5
+
+build cmake_object_order_depends_target_Queue5: phony || CMakeFiles/Queue5.dir
+
+build CMakeFiles/Queue5.dir/LinkQueue_withhead.c.o: C_COMPILER__Queue5_Debug /Users/william/Desktop/DataStructure/Queue/LinkQueue_withhead.c || cmake_object_order_depends_target_Queue5
+  DEP_FILE = CMakeFiles/Queue5.dir/LinkQueue_withhead.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/Queue5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Queue5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Queue5
+
+
+#############################################
+# Link the executable Queue5
+
+build Queue5: C_EXECUTABLE_LINKER__Queue5_Debug CMakeFiles/Queue5.dir/LinkQueue_withhead.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/Queue5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Queue5
+  TARGET_PDB = Queue5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Queue6
+
+
+#############################################
+# Order-only phony target for Queue6
+
+build cmake_object_order_depends_target_Queue6: phony || CMakeFiles/Queue6.dir
+
+build CMakeFiles/Queue6.dir/LinkQueue_nohead.c.o: C_COMPILER__Queue6_Debug /Users/william/Desktop/DataStructure/Queue/LinkQueue_nohead.c || cmake_object_order_depends_target_Queue6
+  DEP_FILE = CMakeFiles/Queue6.dir/LinkQueue_nohead.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/Queue6.dir
+  OBJECT_FILE_DIR = CMakeFiles/Queue6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Queue6
+
+
+#############################################
+# Link the executable Queue6
+
+build Queue6: C_EXECUTABLE_LINKER__Queue6_Debug CMakeFiles/Queue6.dir/LinkQueue_nohead.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/Queue6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Queue6
+  TARGET_PDB = Queue6.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Queue8
+
+
+#############################################
+# Order-only phony target for Queue8
+
+build cmake_object_order_depends_target_Queue8: phony || CMakeFiles/Queue8.dir
+
+build CMakeFiles/Queue8.dir/LinkQueue_withhead_GPT.c.o: C_COMPILER__Queue8_Debug /Users/william/Desktop/DataStructure/Queue/LinkQueue_withhead_GPT.c || cmake_object_order_depends_target_Queue8
+  DEP_FILE = CMakeFiles/Queue8.dir/LinkQueue_withhead_GPT.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/Queue8.dir
+  OBJECT_FILE_DIR = CMakeFiles/Queue8.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Queue8
+
+
+#############################################
+# Link the executable Queue8
+
+build Queue8: C_EXECUTABLE_LINKER__Queue8_Debug CMakeFiles/Queue8.dir/LinkQueue_withhead_GPT.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/Queue8.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Queue8
+  TARGET_PDB = Queue8.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/william/Desktop/DataStructure/Queue/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/william/Desktop/DataStructure/Queue/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/william/Desktop/DataStructure/Queue -B/Users/william/Desktop/DataStructure/Queue/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/william/Desktop/DataStructure/Queue/cmake-build-debug
+
+build all: phony Queue1 Queue2 Queue3 Queue4 Queue5 Queue6 Queue8
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/william/Desktop/DataStructure/Queue/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/william/Desktop/DataStructure/Queue/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

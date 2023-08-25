@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Queue",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue1-Debug-52eb9102333cd7ac483d.json",
+					"name" : "Queue1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue2-Debug-c182f1bf92d7905ca87e.json",
+					"name" : "Queue2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue3-Debug-9a07fb9435d36360fb6c.json",
+					"name" : "Queue3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue4-Debug-5959003d043bdc64e122.json",
+					"name" : "Queue4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue5-Debug-e0ed44956b3268ece60a.json",
+					"name" : "Queue5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue6-Debug-84f936794adec3472b4a.json",
+					"name" : "Queue6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue8-Debug-48d97306f43947e6ee72.json",
+					"name" : "Queue8",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/william/Desktop/DataStructure/Queue/cmake-build-debug",
+		"source" : "/Users/william/Desktop/DataStructure/Queue"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,356 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: Stack
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/william/Desktop/DataStructure/Stack/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Order-only phony target for Stack
+
+build cmake_object_order_depends_target_Stack: phony || CMakeFiles/Stack.dir
+
+build CMakeFiles/Stack.dir/main.c.o: C_COMPILER__Stack_Debug /Users/william/Desktop/DataStructure/Stack/main.c || cmake_object_order_depends_target_Stack
+  DEP_FILE = CMakeFiles/Stack.dir/main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stack.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Link the executable Stack
+
+build Stack: C_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/Stack.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Stack
+  TARGET_PDB = Stack.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SqStack-1
+
+
+#############################################
+# Order-only phony target for SqStack-1
+
+build cmake_object_order_depends_target_SqStack-1: phony || CMakeFiles/SqStack-1.dir
+
+build CMakeFiles/SqStack-1.dir/SqStack_top-1.c.o: C_COMPILER__SqStack-1_Debug /Users/william/Desktop/DataStructure/Stack/SqStack_top-1.c || cmake_object_order_depends_target_SqStack-1
+  DEP_FILE = CMakeFiles/SqStack-1.dir/SqStack_top-1.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/SqStack-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/SqStack-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SqStack-1
+
+
+#############################################
+# Link the executable SqStack-1
+
+build SqStack-1: C_EXECUTABLE_LINKER__SqStack-1_Debug CMakeFiles/SqStack-1.dir/SqStack_top-1.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/SqStack-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SqStack-1
+  TARGET_PDB = SqStack-1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SqStack0
+
+
+#############################################
+# Order-only phony target for SqStack0
+
+build cmake_object_order_depends_target_SqStack0: phony || CMakeFiles/SqStack0.dir
+
+build CMakeFiles/SqStack0.dir/SqStack_top0.c.o: C_COMPILER__SqStack0_Debug /Users/william/Desktop/DataStructure/Stack/SqStack_top0.c || cmake_object_order_depends_target_SqStack0
+  DEP_FILE = CMakeFiles/SqStack0.dir/SqStack_top0.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/SqStack0.dir
+  OBJECT_FILE_DIR = CMakeFiles/SqStack0.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SqStack0
+
+
+#############################################
+# Link the executable SqStack0
+
+build SqStack0: C_EXECUTABLE_LINKER__SqStack0_Debug CMakeFiles/SqStack0.dir/SqStack_top0.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/SqStack0.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SqStack0
+  TARGET_PDB = SqStack0.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ShareStack
+
+
+#############################################
+# Order-only phony target for ShareStack
+
+build cmake_object_order_depends_target_ShareStack: phony || CMakeFiles/ShareStack.dir
+
+build CMakeFiles/ShareStack.dir/ShareStack.c.o: C_COMPILER__ShareStack_Debug /Users/william/Desktop/DataStructure/Stack/ShareStack.c || cmake_object_order_depends_target_ShareStack
+  DEP_FILE = CMakeFiles/ShareStack.dir/ShareStack.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ShareStack.dir
+  OBJECT_FILE_DIR = CMakeFiles/ShareStack.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ShareStack
+
+
+#############################################
+# Link the executable ShareStack
+
+build ShareStack: C_EXECUTABLE_LINKER__ShareStack_Debug CMakeFiles/ShareStack.dir/ShareStack.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/ShareStack.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ShareStack
+  TARGET_PDB = ShareStack.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LinkStack_withead
+
+
+#############################################
+# Order-only phony target for LinkStack_withead
+
+build cmake_object_order_depends_target_LinkStack_withead: phony || CMakeFiles/LinkStack_withead.dir
+
+build CMakeFiles/LinkStack_withead.dir/LinkStack_withead.c.o: C_COMPILER__LinkStack_withead_Debug /Users/william/Desktop/DataStructure/Stack/LinkStack_withead.c || cmake_object_order_depends_target_LinkStack_withead
+  DEP_FILE = CMakeFiles/LinkStack_withead.dir/LinkStack_withead.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/LinkStack_withead.dir
+  OBJECT_FILE_DIR = CMakeFiles/LinkStack_withead.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LinkStack_withead
+
+
+#############################################
+# Link the executable LinkStack_withead
+
+build LinkStack_withead: C_EXECUTABLE_LINKER__LinkStack_withead_Debug CMakeFiles/LinkStack_withead.dir/LinkStack_withead.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/LinkStack_withead.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = LinkStack_withead
+  TARGET_PDB = LinkStack_withead.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LinkStack_nohead
+
+
+#############################################
+# Order-only phony target for LinkStack_nohead
+
+build cmake_object_order_depends_target_LinkStack_nohead: phony || CMakeFiles/LinkStack_nohead.dir
+
+build CMakeFiles/LinkStack_nohead.dir/LinkStack_nohead.c.o: C_COMPILER__LinkStack_nohead_Debug /Users/william/Desktop/DataStructure/Stack/LinkStack_nohead.c || cmake_object_order_depends_target_LinkStack_nohead
+  DEP_FILE = CMakeFiles/LinkStack_nohead.dir/LinkStack_nohead.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/LinkStack_nohead.dir
+  OBJECT_FILE_DIR = CMakeFiles/LinkStack_nohead.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LinkStack_nohead
+
+
+#############################################
+# Link the executable LinkStack_nohead
+
+build LinkStack_nohead: C_EXECUTABLE_LINKER__LinkStack_nohead_Debug CMakeFiles/LinkStack_nohead.dir/LinkStack_nohead.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/LinkStack_nohead.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = LinkStack_nohead
+  TARGET_PDB = LinkStack_nohead.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AD
+
+
+#############################################
+# Order-only phony target for AD
+
+build cmake_object_order_depends_target_AD: phony || CMakeFiles/AD.dir
+
+build CMakeFiles/AD.dir/bracketCheck.c.o: C_COMPILER__AD_Debug /Users/william/Desktop/DataStructure/Stack/bracketCheck.c || cmake_object_order_depends_target_AD
+  DEP_FILE = CMakeFiles/AD.dir/bracketCheck.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/AD.dir
+  OBJECT_FILE_DIR = CMakeFiles/AD.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AD
+
+
+#############################################
+# Link the executable AD
+
+build AD: C_EXECUTABLE_LINKER__AD_Debug CMakeFiles/AD.dir/bracketCheck.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/AD.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AD
+  TARGET_PDB = AD.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LinkStack_nohead_GPT
+
+
+#############################################
+# Order-only phony target for LinkStack_nohead_GPT
+
+build cmake_object_order_depends_target_LinkStack_nohead_GPT: phony || CMakeFiles/LinkStack_nohead_GPT.dir
+
+build CMakeFiles/LinkStack_nohead_GPT.dir/LinkStack_nohead_GPT.c.o: C_COMPILER__LinkStack_nohead_GPT_Debug /Users/william/Desktop/DataStructure/Stack/LinkStack_nohead_GPT.c || cmake_object_order_depends_target_LinkStack_nohead_GPT
+  DEP_FILE = CMakeFiles/LinkStack_nohead_GPT.dir/LinkStack_nohead_GPT.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/LinkStack_nohead_GPT.dir
+  OBJECT_FILE_DIR = CMakeFiles/LinkStack_nohead_GPT.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LinkStack_nohead_GPT
+
+
+#############################################
+# Link the executable LinkStack_nohead_GPT
+
+build LinkStack_nohead_GPT: C_EXECUTABLE_LINKER__LinkStack_nohead_GPT_Debug CMakeFiles/LinkStack_nohead_GPT.dir/LinkStack_nohead_GPT.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/LinkStack_nohead_GPT.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = LinkStack_nohead_GPT
+  TARGET_PDB = LinkStack_nohead_GPT.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/william/Desktop/DataStructure/Stack/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/william/Desktop/DataStructure/Stack/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/william/Desktop/DataStructure/Stack -B/Users/william/Desktop/DataStructure/Stack/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/william/Desktop/DataStructure/Stack/cmake-build-debug
+
+build all: phony Stack SqStack-1 SqStack0 ShareStack LinkStack_withead LinkStack_nohead AD LinkStack_nohead_GPT
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/william/Desktop/DataStructure/Stack/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/william/Desktop/DataStructure/Stack/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
